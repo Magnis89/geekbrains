@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #222222;
+  padding: 17px 0 16px 0;
+}
+
+.header__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo {
+  margin-right: 41px;
+}
+
+.header__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__item:not(:last-child) {
+  margin-right: 33px;
+}
+
+.info__top {
+  background-color: #222224;
+  height: 341px;
+}
+
+.info__top-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 103px;
+}
+
+.info__box {
+  color: #FBFBFB;
+  width: 360px;
+  height: 134px;
+  text-align: center;
+}
+
+.info__margin {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.info__box {
+  color: #FBFBFB;
+  width: 360px;
+  height: 134px;
+  text-align: center;
+}
+
+.info__bottom {
+  background-image: url(../img/info__bottom.jpg);
+  background-position: center;
+  height: 450px;
+  background-repeat: no-repeat;
+}
+
+.info__subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.info__left {
+  padding-top: 97px;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #222224;
+  width: 360px;
+}
+
+.face__margin {
+  margin-bottom: 30px;
+}
+
+.info__right {
+  text-align: center;
+  position: relative;
+  right: 75px;
+  bottom: -127px;
+}
+
+.font__weight {
+  font-weight: normal;
+  padding: 10px 0 32px;
+}
+
+.subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.subscribe__email {
+  border: none;
+  background: #E1E1E1;
+  padding: 15px 60px 15px 22px;
+  border-top-left-radius: 21px;
+  border-bottom-left-radius: 21px;
+}
+
+.subscribe__btn {
+  border: none;
+  background: #F16D7F;
+  color: #FFFFFF;
+  padding: 15px 15px 15px 22px;
+  border-top-right-radius: 21px;
+  border-bottom-right-radius: 21px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #222224;
+  height: 80px;
+}
+
+.footer__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__left {
+  font-size: 16px;
+  line-height: 19px;
+  color: #FBFBFB;
+}
+
+.back__img {
+  background-color: #F8F8F8;
+  padding: 8px;
+  margin-right: 4px;
+}
+
+.back__img:hover {
+  background-color: #F16D7F;
+  color: #FFFFFF;
+}
+
+.reg {
+  background-color: #F8F3F4;
+  height: 148px;
+}
+
+.reg__back {
+  padding-top: 60px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F16D7F;
+}
+
+.reg__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 64px;
+  margin-bottom: 96px;
+}
+
+.reg__input__left {
+  width: 360px;
+}
+
+.reg__text--opacity {
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+}
+
+.input--style {
+  margin-bottom: 20px;
+  padding: 13px 170px 13px 17px;
+}
+
+.input--gender {
+  margin: 10px 10px 30px 0;
+}
+
+.male {
+  padding-right: 20px;
+}
+
+.reg__input__left p {
+  margin-bottom: 20px;
+}
+
+.reg__btn {
+  padding: 16px 30px;
+  background: #F16D7F;
+  color: #FFFFFF;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  -webkit-transition: all 5s;
+  transition: all 5s;
+}
+
+.reg__btn:hover {
+  background-color: #4c42da;
+  color: #11ca11;
+  -webkit-transform: scale(2) rotate(360deg);
+          transform: scale(2) rotate(360deg);
+}
+
+.fa-arrow-right {
+  margin-left: 10px;
+}
+
+.reg__input__right {
+  margin-left: 128px;
+  width: 630px;
+}
+
+.reg__info {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.reg__right--mar {
+  margin-bottom: 21px;
+}
+
+.fa-check {
+  margin-right: 23px;
+}
+/*# sourceMappingURL=registration.css.map */
