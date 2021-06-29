@@ -1,0 +1,14 @@
+@mixin text ($size, $height, $color) {
+    font-size: $size;
+    line-height: $height;
+    color: $color;
+}
+
+@mixin display () {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flex () {
+    display: flex;
+}
